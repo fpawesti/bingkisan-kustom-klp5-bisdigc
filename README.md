@@ -6,7 +6,7 @@ Landing Page Katalog dan Kalkulator Simulasi Harga - Kelompok 5 WebDev C
 - **Nomor Kelompok:** Kelompok 5
 - **Nama Kelas:** WebDev C
 - **Tema Studi Kasus:** Toko Bingkisan Hadiah dan Parsel Kustomisasi Digital
-- **Tautan GitHub Pages:** https://[username-github].github.io/[nama-repo]/
+- **Tautan GitHub Pages:** https://fpawesti.github.io/bingkisan-kustom-klp5-bisdigc/
 
 ## Daftar Anggota Kelompok
 
