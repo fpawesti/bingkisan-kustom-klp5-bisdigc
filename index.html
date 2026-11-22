@@ -3,41 +3,147 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Parcelin.id</title>
+  <title>PARCELIN — Toko Bingkisan Hadiah &amp; Parsel Kustomisasi Digital</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <!-- Bagian Fitria (CEO): Header -->
-  <header>
-    <div>Parcelin.id</div>
-    <nav>
-      <a href="#hero">Beranda</a>
-      <a href="#catalog">Katalog</a>
-      <a href="#calculator">Kalkulator</a>
+  <!-- ============================================================
+       BAGIAN CEO - HEADER SECTION
+       ============================================================ -->
+  <header id="header-section" data-role="CEO">
+    <div class="brand-logo">PARCELIN</div>
+    <nav aria-label="Navigasi Utama">
+      <ul class="nav-links">
+        <li><a href="#hero-section">Beranda</a></li>
+        <li><a href="#catalog-section">Katalog</a></li>
+        <li><a href="#calc-section">Kalkulator</a></li>
+      </ul>
     </nav>
   </header>
 
   <main>
-    <!-- Bagian Akbar (Product Manager): Hero Section -->
-    <section id="hero">
-      <!-- Tempelkan kode Hero Section dari Akbar di sini -->
+    <!-- ============================================================
+         BAGIAN AKBAR (PRODUCT MANAGER) - HERO SECTION
+         ============================================================ -->
+    <section id="hero-section" data-role="PM">
+      <div class="hero-content">
+        <span class="hero-badge">Bingkisan &amp; Parsel Kustom Digital</span>
+        <h1>Kirim Hadiah Istimewa, Tanpa Ribet Mikir Isinya</h1>
+        <p class="hero-subtitle">
+          Parcelin.id membantu kamu merancang bingkisan dan parsel sesuai selera
+          dan budget. Pilih paket, tentukan jumlah kotak, lalu simulasikan
+          biayanya langsung di website, secara online.
+        </p>
+
+        <ul class="hero-benefits">
+          <li>
+            <strong>Bisa Dikustomisasi</strong>
+            <span>Isi, kartu ucapan, dan kemasan disesuaikan dengan acara kamu.</span>
+          </li>
+          <li>
+            <strong>Harga Transparan</strong>
+            <span>Hitung total bayar dulu lewat kalkulator, tanpa biaya tersembunyi.</span>
+          </li>
+          <li>
+            <strong>Cocok untuk Semua Kebutuhan</strong>
+            <span>Dari hadiah personal sampai bingkisan perusahaan dalam jumlah besar.</span>
+          </li>
+        </ul>
+
+        <a href="#calc-section" class="btn btn-primary">Hitung Biaya Bingkisanmu</a>
+      </div>
     </section>
 
-    <!-- Bagian Akbar (Product Manager): Catalog Section (Sederhana, Istimewa, Perusahaan) -->
-    <section id="catalog">
-      <!-- Tempelkan kode Catalog Section dari Akbar di sini -->
+    <!-- ============================================================
+         BAGIAN AKBAR (PRODUCT MANAGER) - CATALOG SECTION
+         ============================================================ -->
+    <section id="catalog-section" data-role="PM">
+      <div class="section-heading">
+        <h2>Katalog Paket Bingkisan</h2>
+        <p>Pilih paket yang paling pas untuk momen spesialmu. Harga per kotak bingkisan.</p>
+      </div>
+
+      <div class="catalog-grid">
+
+        <!-- Paket 1 -->
+        <article class="package-card">
+          <h3 class="package-name">Paket Bingkisan Sederhana</h3>
+          <p class="package-price">Rp75.000 <small>/ kotak</small></p>
+          <p class="package-desc">
+            Pilihan hemat untuk ucapan terima kasih, ulang tahun, atau hadiah kecil
+            antar teman.
+          </p>
+          <ul class="package-features">
+            <li>Kotak bingkisan standar dengan pita</li>
+            <li>3 sampai 4 item camilan atau produk pilihan</li>
+            <li>Kartu ucapan standar</li>
+          </ul>
+          <p class="package-promo">
+            Kode promo <strong>PARCELIN</strong>: diskon 10%
+          </p>
+        </article>
+
+        <!-- Paket 2 -->
+        <article class="package-card featured">
+          <span class="package-label">Paling Populer</span>
+          <h3 class="package-name">Paket Bingkisan Istimewa</h3>
+          <p class="package-price">Rp150.000 <small>/ kotak</small></p>
+          <p class="package-desc">
+            Parsel kustom dengan sentuhan personal untuk wisuda, pernikahan,
+            lamaran, atau hari raya.
+          </p>
+          <ul class="package-features">
+            <li>Kotak premium dengan pembungkus eksklusif</li>
+            <li>5 sampai 6 item pilihan sesuai tema</li>
+            <li>Kartu ucapan dengan nama penerima</li>
+            <li>Pilihan warna dan dekorasi</li>
+          </ul>
+          <p class="package-promo">
+            Kode promo <strong>PARCELIN</strong>: diskon 10%
+          </p>
+        </article>
+
+        <!-- Paket 3 -->
+        <article class="package-card">
+          <h3 class="package-name">Paket Bingkisan Perusahaan</h3>
+          <p class="package-price">Rp300.000 <small>/ kotak</small></p>
+          <p class="package-desc">
+            Solusi hampers untuk klien, mitra, dan karyawan, lengkap dengan
+            identitas perusahaan kamu.
+          </p>
+          <ul class="package-features">
+            <li>Kotak mewah dengan logo atau branding perusahaan</li>
+            <li>8 sampai 10 item pilihan</li>
+            <li>Kartu ucapan cetak dengan nama perusahaan</li>
+            <li>Cocok untuk pemesanan dalam jumlah besar</li>
+          </ul>
+          <p class="package-promo">
+            Kode promo <strong>PARCELIN</strong>: diskon 10%
+          </p>
+        </article>
+
+      </div>
+
+      <p class="catalog-note">
+        Diskon 10% berlaku jika memakai kode <strong>PARCELIN</strong> atau
+        membeli minimal <strong>3 kotak</strong>. Masukkan kodenya di
+        <a href="#calc-section">kalkulator</a>.
+      </p>
     </section>
 
-    <!-- Bagian Maul (Software Engineer): Form Kalkulator -->
-    <section id="calculator">
-      <!-- Tempelkan kode Form Kalkulator dari Maul di sini -->
-    </section>
+    <!-- ============================================================
+         BAGIAN SOFTWARE ENGINEER - CALCULATOR SECTION
+         ============================================================ -->
+    <section id="calc-section" data-role="SE"></section>
   </main>
 
-  <!-- Bagian Fitria (CEO): Footer -->
-  <footer>
-    <p><strong>Parcelin.id</strong> — Bingkisan Hadiah dan Parsel Kustomisasi Digital</p>
-    <p>© Parcelin.id</p>
+  <!-- ============================================================
+       BAGIAN CEO - FOOTER SECTION
+       ============================================================ -->
+  <footer id="footer-section" data-role="CEO">
+    <p>&copy; 2026 PARCELIN (Parcelin.id) — Toko Bingkisan Hadiah &amp; Parsel Kustomisasi Digital</p>
+    <p>Kelas WebDev C | Kelompok 5</p>
+    <p>Anggota Kelompok: Fitria Delia Pawesti, Akbar, [Anggota 3], [Anggota 4], [Anggota 5], [Anggota 6]</p>
   </footer>
 
   <script src="script.js"></script>
