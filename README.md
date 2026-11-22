@@ -1,4 +1,4 @@
-# bingkisan-kustom-klp5-bisdigc
+# Bingkisan-Custom-Kelompok5-BisDigC
 Landing Page Katalog dan Kalkulator Simulasi Harga - Kelompok 5 WebDev C 
 (Toko Bingkisan Hadiah dan Parsel Kustomisasi Digital)
 # Parcelin.id
